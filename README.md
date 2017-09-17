@@ -12,13 +12,13 @@ It applies to any structural artifacts: projects, directories, packages, files, 
 Local History revisions are marked with labels, which are similar to versions in traditional version control systems. Viewing or reverting or differences is performed against these labels.
 
 Labels based on predefined events are added to the local revisions automatically. Besides, you can manually put your own labels to the project artifacts to mark your changes. See “Marking local versions with labels” for details.
-Local history is cleared when you install a new version of IntelliJ IDEA or when you invalidate caches . Therefore, before performing these operations, make sure you checked in the necessary changes into your global version control system.
+Local history is cleared when you install a new version of IntelliJ IDEA or when you invalidate caches. Therefore, before performing these operations, make sure you checked in the necessary changes into your global version control system.
 
 <h3>Considerations and Limitations</h3>
 <ol>
  <li>Tracking local changes is only possible for text files. Local History for binary files is not supported.</li>
  <li>Limited functionality for large files: for files larger than 1 MB, Local History tracks only the very fact of changes, but does not preserve the exact content modifications.</li>
-<li>Remember that Local History does not support shared access – it is intended for the personal use only.</li>
+<li>Remember that Local History does not support shared access – it is intended for personal use only.</li>
 </ol>
 
 <h2>Tracking and Reverting Changes with Local History</h2>
@@ -33,13 +33,20 @@ This section describes how to:
  </ul>
 
 <h3>Viewing Local History of a File or Folder</h3>
-1.      Select a folder or file in the Project tool window, or open a file in the editor.
-2.       Do any  of the following:
-•	 In the main VCS menu, , select  Local History | Show History. Alternatively, you can invoke this command from the shortcut menu.
-•	Press Alt+Back Quote and select the  Show Historycommand from the VCS Operations quick list.
-•	Use the  Recent Changes view that shows a summary of recent changes in a single pop-up list. Click a list entry  shows its Local History.
-4.	eIn the Local History that opens you can  compare local versions of selected file or folder, and accept or revert changes.
-o	local history for a file includes all changes that affect both the selected file and the whole project.
-o	local history for a folder shows changes to the source code tree in general.
+To track changes to a file or folder:
+<ol>
+<li>Select the necessary file or folder in the <b>Project tool</b> window. A file can be also opened in the editor.</li>
+<li>Open the <b>Local History</b> window for selection in any of the following ways:
+ <ul>
+ <li>In the main <b>VCS</b> menu, select  <b>Local History | Show History</b>, or use the same command from the shortcut menu.</li>
+ <li>Press <i>Alt+Back Quote</i>, then from the <b>VCS Operations</b> quick list select the <b>Show History</b> command.</li>
+ <li>Use the  <b>Recent Changes</b> view that shows a summary of recent changes in a single pop-up list. Click a list entry to open Local History for it.</li>
+ </ul>
+ <li>In the <b>Local History</b> dialog window that opens you can compare local versions of selected file or folder, and accept or revert changes. 
+ Each local history entry (file/folder version) is displayed in the left pane, with its time stamp, action and optional label. Select an entry to explore changes in detail, accept or revert them.
+ <ul>
+  <li>Local History for a file includes all changes that affect both the selected file and the whole project</li>
+  <li>Local History for a folder shows changes to the source code tree in general</li>
+ </ul>
+ </ol>
 
-Each entry is displayed with its time stamp, action and optional label. Select an entry in the left pane to explore changes in detail, accept or revert them.
