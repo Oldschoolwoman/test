@@ -11,7 +11,7 @@ Local History window looks like shown below:
 
 Local History dialog elements and controls are described in detail in the <a href="https://www.jetbrains.com/help/idea/show-history-for-folder-dialog.html">Show History for Folder Dialog</a> and <a href="https://www.jetbrains.com/help/idea/show-history-for-file-selection-dialog.html">Show History for File/Selection Dialog</a> sections.
 
-The steps needed to invoke this dialog for selected entity are described in the “Tracking and Reverting Changes with Local History” section.
+The steps needed to invoke this dialog for selected entity are described in the <a href="#tracking-and-reverting-changes-with-local- history">Tracking and Reverting Changes with Local History</a> section.
 
 <h3>How It Works</h3>
 Local History feature tracks changes you make to the source code, results of refactoring, and state of the source code based on a set of predefined events (testing, deployment, commit or update). 
