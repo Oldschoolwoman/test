@@ -5,7 +5,8 @@
 <h3>Basics</h3>
 Local History is a built-in feature of IntelliJ IDEA that automatically tracks changes you make to the source code on your local computer. Similarly to any version control system (VCS), it enables you to compare versions and roll changes back, if necessary. Local History, however, does not support shared access – it operates independently from the global VCS. The good news is that it works out of the box: even if your project is not under any VCS control, or when you are not connected to the network, you can manage changes to your project files.
 Local history window looks like shown below:
-![](images/show_history_dialog.png)
+
+<img src="images/show_history_dialog.png">
 
 <h3>How It Works</h3>
 Local History feature tracks changes you make to the source code, results of refactoring, and state of the source code based on a set of predefined events (testing, deployment, commit or update). 
