@@ -1,9 +1,10 @@
 # test
 <h1>Using Local History for Change Tracking</h1>
 In this section:
-<a href="#local-history-feature">Local History Overview</a>
-<a href="#tracking-and-reverting-changes-with-local- history">Tracking and Reverting Changes with Local History</a>
-
+<ul>
+<li><a href="#local-history-feature">Local History Overview</a></li>
+<li><a href="#tracking-and-reverting-changes-with-local- history">Tracking and Reverting Changes with Local History</a></li>
+</ul>
 <h2>Local History Feature</h2>
 
 <h3>Basics</h3>
@@ -30,7 +31,7 @@ Local history is cleared when you install a new version of IntelliJ IDEA or when
 <h3>Considerations and Limitations</h3>
 <ol>
  <li>Tracking local changes is only possible for text files. Local History for binary files is not supported.</li>
- <li>Limited functionality for large files: for files larger than 1 MB, Local History tracks only the very fact of changes, but does not preserve the exact content modifications.</li>
+ <li>Limited functionality for large files: for files larger than 1 MB, Local History tracks only the very fact of changes, but does not track the exact content modifications.</li>
 <li>Remember that Local History does not support shared access – it is intended for personal use only.</li>
 </ol>
 
@@ -105,9 +106,9 @@ To view local history of a source code block:
 </ol>
 <p></p>
 <img src="images/show_history_for_selection.png">
-<p></p>
-<b>Tip:</b> If you prefer using hotkeys, press <i>Alt+Back Quote</i> to display <b>VCS Operations</b> quick list, then select <b>Show History</b>.
-<p></p>
+
+Tip: If you prefer using hotkeys, press <i>Alt+Back Quote</i> to display <b>VCS Operations</b> quick list, then select <b>Show History</b>.
+
 When the Local History dialog opens, in the left pane select the revision you need. Then in the right pane you can compare local versions of selected file or folder, and accept or revert changes. See the <a href="https://www.jetbrains.com/help/idea/show-history-for-file-selection-dialog.html"> Show History for File/Selection Dialog</a> section for detailed list of options available in this dialog.
 
 <h3>Using Custom Labels</h3>
@@ -117,7 +118,7 @@ To add a label to a local version:
 <ol>
 <li>In the <b>Project</b> tool window, select a project file or folder, or open a file in the editor.</li>
 <li>From the main menu, select <b>VCS | Local History | Put Label</b>. Alternatively, you can invoke this same command from the shortcut menu of the selection. If you prefer using hotkeys, press <i>Alt+Back Quote</i> to display <b>VCS Operations</b> quick list, then select <b>Put Label</b>.</li>
-<li>In the Put Label dialog box, type the label name. It is recommended to enter some meaningful unique name to distinguish the current version. You can use standard characters or wildcards.</li>
+<li>In the Put Label dialog box, type the label name. It is recommended to enter some meaningful unique name to distinguish the current version. You can use standard characters and wildcards.</li>
 <li>Click <b>OK</b> to assign the label and close the dialog.</li>
 </ol>
 <p></p>
