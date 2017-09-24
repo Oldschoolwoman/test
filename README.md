@@ -1,5 +1,9 @@
 # test
 <h1>Using Local History for Change Tracking</h1>
+In this section:
+<a href="#local-history-feature">Local History Overview</a>
+<a href="#tracking-and-reverting-changes-with-local- history">Tracking and Reverting Changes with Local History</a>
+
 <h2>Local History Feature</h2>
 
 <h3>Basics</h3>
@@ -34,10 +38,10 @@ Local history is cleared when you install a new version of IntelliJ IDEA or when
 This section describes how to:
 <ul>
 <li><a href="#viewing-local-history-of-a-file-or-folder">View local history of a file or folder</a></li>
-<li><a href="#reverting-changes-for-a-file-or-folder">Reverting Changes for a File or Folder</a></li>
-<li><a href="#viewing-local-history-of-source-code">Viewing Local History of Source Code</a></li>
-<li><a href="#using-custom-labels">Using Custom Labels</a></li>
-<li><a href="#viewing-summary-of-changes-for-projects">Viewing Summary of Changes for Projects</a></li>
+<li><a href="#reverting-changes-for-a-file-or-folder">Revert changes for a file or folder</a></li>
+<li><a href="#viewing-local-history-of-source-code">View local history of source sode</a></li>
+<li><a href="#using-custom-labels">Use custom labels</a></li>
+<li><a href="#viewing-summary-of-changes-for-projects">View summary of changes for projects</a></li>
 </ul>
 
 <h3>Viewing Local History of a File or Folder</h3>
