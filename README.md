@@ -104,20 +104,20 @@ To view local history of a source code block:
 <img src="images/show_history_for_selection.png">
 <p></p>
 <b>Tip:</b> If you prefer using hotkeys, press <i>Alt+Back Quote</i> to display <b>VCS Operations</b> quick list, then select <b>Show History</b>.
-
+<p></p>
 When the Local History dialog opens, in the left pane select the revision you need. Then in the right pane you can compare local versions of selected file or folder, and accept or revert changes. See the <a href="https://www.jetbrains.com/help/idea/show-history-for-file-selection-dialog.html"> Show History for File/Selection Dialog</a> section for detailed list of options available in this dialog.
 
-<h3>Using Custom Labels</b>
+<h3>Using Custom Labels</h3>
 Best practices recommend that before any uncertain change to your source code, you mark the stable version with a meaningful label. This will help you quickly roll back to a safe version.
 Labels apply to a whole project; manually put labels cannot be edited after they are assigned.
 To add a label to a local version:
 <ol>
 <li>In the <b>Project</b> tool window, select a project file or folder, or open a file in the editor.</li>
-<li>From the main menu, select <b>VCS | Local History | Put Label</b>. Alternatively, you can invoke this same command from the shortcut menu of the selection.
-If you prefer using hotkeys, press <i>Alt+Back Quote</i> to display <b>VCS Operations</b> quick list, then select <b>Put Label</b>.
+<li>From the main menu, select <b>VCS | Local History | Put Label</b>. Alternatively, you can invoke this same command from the shortcut menu of the selection. If you prefer using hotkeys, press <i>Alt+Back Quote</i> to display <b>VCS Operations</b> quick list, then select <b>Put Label</b>.</li>
 <li>In the Put Label dialog box, type the label name. It is recommended to enter some meaningful unique name to distinguish the current version. You can use standard characters or wildcards.</li>
 <li>Click <b>OK</b> to assign the label and close the dialog.</li>
 </ol>
+<p></p>
 When you open the Local History window for this file/folder, historical versions will be shown in the left pane with the label you put.
 <p></p>
 <img src="images/local_history_label_shown.png">
@@ -127,7 +127,7 @@ IntelliJ IDEA allows you to view the summary of recent changes to all recent pro
 To view the summary of local changes to a directory or project:
 <ol>
 <li>In the main menu, select <b>View | Recent Changes</b>, or press <i>Shift+Alt+C</i>.
-<li>In the Recent Changes list, select the change you need.</li>
+<li>In the <b>Recent Changes</b> list, select the change you need.</li>
 <li>In the dialog that opens you can view what directory and/or project was affected and, if necessary, revert the changes. Note that changes for your selection will be reverted in bulk. </li>
 </ol>
 <p></p>
