@@ -9,7 +9,7 @@ Local History window looks like shown below:
 <p></p>
 <img src="images/show_history_dialog.png" align="center">
 
-Local History dialog elements and controls are described in detail in the <a href="https://www.jetbrains.com/help/idea/show-history-for-folder-dialog.html">Show History for File Dialog</a> and <a href="https://www.jetbrains.com/help/idea/show-history-for-file-selection-dialog.html">Show History for File/Selection Dialog</a> sections.
+Local History dialog elements and controls are described in detail in the <a href="https://www.jetbrains.com/help/idea/show-history-for-folder-dialog.html">Show History for Folder Dialog</a> and <a href="https://www.jetbrains.com/help/idea/show-history-for-file-selection-dialog.html">Show History for File/Selection Dialog</a> sections.
 
 The steps needed to invoke this dialog for selected entity are described in the “Tracking and Reverting Changes with Local History” section.
 
