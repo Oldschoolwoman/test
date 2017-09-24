@@ -6,9 +6,9 @@
 Local History is a built-in feature of IntelliJ IDEA that automatically tracks changes you make to the source code on your local computer. Similarly to any version control system (VCS), it enables you to compare versions and roll changes back, if necessary. Local History, however, does not support shared access – it operates independently from the global VCS. The good news is that it works out of the box: even if your project is not under any VCS control, or when you are not connected to the network, you can manage changes to your project files.
 
 Local History window looks like shown below:
-<br/>
+<p></p>
 <img src="images/show_history_dialog.png" align="center">
-<br/>
+
 Local History dialog elements and controls are described in detail in the <a href="https://www.jetbrains.com/help/idea/show-history-for-folder-dialog.html">Show History for File Dialog</a> and <a href="https://www.jetbrains.com/help/idea/show-history-for-file-selection-dialog.html">Show History for File/Selection Dialog</a> sections.
 
 The steps needed to invoke this dialog for selected entity are described in the “Tracking and Reverting Changes with Local History” section.
@@ -47,21 +47,21 @@ You can view local history, compare versions and revert changes made to the file
 To track changes to a file or folder:
 <ol>
 <li>Select the necessary file or folder in the <b>Project</b> tool window. A file can be also opened in the editor.
-
-<img src="images/select_folder_in_project.png" align="center"> 
+<p></p>
+<img src="images/select_folder_in_project.png"> 
 </li>
 <li>Open the <b>Local History</b> window for selection in any of the following ways:
  <ul>
  <li>In the main menu, select  <b>VCS | Local History | Show History</b>, or use the same command from the shortcut menu of the selection.</li>
  <li>If you prefer using hotkeys, press <i>Alt+Back Quote</i>, then from the <b>VCS Operations</b> quick list select the <b>Show History</b> command.
- 
- <img src="images/vcs_operations_popup.png" align="center">
+ <p></p>
+ <img src="images/vcs_operations_popup.png">
  </li>
  <li>You can also use the  <b>Recent Changes</b> view that shows a summary of recent changes to the project in a single pop-up list. Click a list entry to open Local History for it.</li>
  </ul>
  <li>In the Local History dialog window, select in the left pane select the revision you need. Then in the right pane you can compare local versions of selected file or folder, and accept or revert changes. See the <a href="https://www.jetbrains.com/help/idea/show-history-for-folder-dialog.html">Show History for File Dialog</a> and <a href="https://www.jetbrains.com/help/idea/show-history-for-file-selection-dialog.html">Show History for File/Selection Dialog</a> sections for detailed list of options available in this dialog.
-
-<img src="images/show_history_dialog_main.png" align="center">
+ <p></p>
+<img src="images/show_history_dialog_main.png">
 
 Note that:
  <ul>
