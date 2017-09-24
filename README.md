@@ -6,7 +6,12 @@ In this section:
 <li><a href="#tracking-and-reverting-changes-with-local- history">Tracking and Reverting Changes with Local History</a></li>
 </ul>
 <h2>Local History Feature</h2>
-
+In this section:
+<ul>
+<li><a href="#basics">Basics</a>
+<li><a href="#how-it-works">How It Works</a></li>
+<li><a href="#considerations-and-limitations">Considerations and Limitations</a></li>
+</ul>
 <h3>Basics</h3>
 Local History is a built-in feature of IntelliJ IDEA that automatically tracks changes you make to the source code on your local computer. Similarly to any version control system (VCS), it enables you to compare versions and roll changes back, if necessary. Local History, however, does not support shared access – it operates independently from the global VCS. The good news is that it works out of the box: even if your project is not under any VCS control, or when you are not connected to the network, you can manage changes to your project files.
 
@@ -22,11 +27,11 @@ The steps needed to invoke this dialog for selected entity are described in the 
 Local History feature tracks changes you make to the source code, results of refactoring, and state of the source code based on a set of predefined events (testing, deployment, commit or update). 
 It applies to any structural artifacts: projects, directories, packages, files, classes, class members, tags and selected fragments of text. 
 
-Local History revisions are marked with <i>labels</i>, which are similar to versions in traditional version control systems. Viewing or reverting or differences is performed against these labels.
+Local History revisions are marked with <i>labels</i>, which are similar to versions in traditional version control systems. Viewing or reverting differences is performed against these labels.
 
 Labels based on predefined events are added to the local revisions automatically. Besides, you can manually put your own labels to the project artifacts to mark your changes. See <a href="#using-custom-labels">Using Custom Labels</a> for details.
 
-Local history is cleared when you install a new version of IntelliJ IDEA or when you invalidate caches. So, before performing these operations make sure you checked in the necessary changes into your global version control system.
+Local history is cleared when you install a new version of IntelliJ IDEA or when you <a href="https://www.jetbrains.com/help/idea/cleaning-system-cache.html">invalidate caches</a>. So, before performing these operations make sure you checked in the necessary changes into your global version control system.
 
 <h3>Considerations and Limitations</h3>
 <ol>
@@ -74,7 +79,7 @@ Note that:
  </ul>
  </ol>
 <h3>Reverting Changes for a File or Folder</h3>
-You can roll back file or folder changes using local history in same way as the regular version control.
+You can roll back file or folder changes using local history in the same way as with the regular version control.
 To revert changes made to a file or folder:
 <ol>
 <li>Open the Local History view for the file or folder you need, as described in the section above.</li>
@@ -86,6 +91,7 @@ To revert changes made to a file or folder:
 
 <h3>Viewing Local History of Source Code</h3>
 You can also use Local History to examine local changes of a class, its elements (methods and fields), or selected block of source code. 
+
 To view local history of a class:
 <ol>
 <li>In the <b>Project</b> tool window, select a class file, or right-click the class name in the editor.</li>
@@ -107,9 +113,9 @@ To view local history of a source code block:
 <p></p>
 <img src="images/show_history_for_selection.png">
 
-Tip: If you prefer using hotkeys, press <i>Alt+Back Quote</i> to display <b>VCS Operations</b> quick list, then select <b>Show History</b>.
+Tip: If you prefer using hotkeys, then after selecting the fragment, press <i>Alt+Back Quote</i> to display <b>VCS Operations</b> quick list, then select <b>Show History</b>.
 
-When the Local History dialog opens, in the left pane select the revision you need. Then in the right pane you can compare local versions of selected file or folder, and accept or revert changes. See the <a href="https://www.jetbrains.com/help/idea/show-history-for-file-selection-dialog.html"> Show History for File/Selection Dialog</a> section for detailed list of options available in this dialog.
+When the Local History dialog opens, in the left pane select the revision you need. Then in the right pane you can compare local versions of the code fragment, and accept or revert changes. See the <a href="https://www.jetbrains.com/help/idea/show-history-for-file-selection-dialog.html"> Show History for File/Selection Dialog</a> section for detailed list of options available in this dialog.
 
 <h3>Using Custom Labels</h3>
 Best practices recommend that before any uncertain change to your source code, you mark the stable version with a meaningful label. This will help you quickly roll back to a safe version.
