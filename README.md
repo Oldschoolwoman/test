@@ -7,9 +7,9 @@ Local History is a built-in feature of IntelliJ IDEA that automatically tracks c
 
 Local History window looks like shown below:
 <br/>
-<img src="images/show_history_dialog.png">
+<img src="images/show_history_dialog.png" align="center">
 <br/>
-Its elements are described in detail in the <a href="https://www.jetbrains.com/help/idea/show-history-for-folder-dialog.html">Show History for File Dialog</a> and <a href="https://www.jetbrains.com/help/idea/show-history-for-file-selection-dialog.html">Show History for File/Selection Dialog</a> sections.
+Local History dialog elements and controls are described in detail in the <a href="https://www.jetbrains.com/help/idea/show-history-for-folder-dialog.html">Show History for File Dialog</a> and <a href="https://www.jetbrains.com/help/idea/show-history-for-file-selection-dialog.html">Show History for File/Selection Dialog</a> sections.
 
 The steps needed to invoke this dialog for selected entity are described in the “Tracking and Reverting Changes with Local History” section.
 
@@ -20,6 +20,7 @@ It applies to any structural artifacts: projects, directories, packages, files, 
 Local History revisions are marked with <i>labels</i>, which are similar to versions in traditional version control systems. Viewing or reverting or differences is performed against these labels.
 
 Labels based on predefined events are added to the local revisions automatically. Besides, you can manually put your own labels to the project artifacts to mark your changes. See “Using Custom Lables” for details.
+
 Local history is cleared when you install a new version of IntelliJ IDEA or when you invalidate caches. So, before performing these operations make sure you checked in the necessary changes into your global version control system.
 
 <h3>Considerations and Limitations</h3>
@@ -47,25 +48,25 @@ To track changes to a file or folder:
 <ol>
 <li>Select the necessary file or folder in the <b>Project</b> tool window. A file can be also opened in the editor.
 
-<img src="images/select_folder_in_project.png"> 
+<img src="images/select_folder_in_project.png" align="center"> 
 </li>
 <li>Open the <b>Local History</b> window for selection in any of the following ways:
  <ul>
  <li>In the main menu, select  <b>VCS | Local History | Show History</b>, or use the same command from the shortcut menu of the selection.</li>
  <li>If you prefer using hotkeys, press <i>Alt+Back Quote</i>, then from the <b>VCS Operations</b> quick list select the <b>Show History</b> command.
  
- <img src="images/vcs_operations_popup.png">
+ <img src="images/vcs_operations_popup.png" align="center">
  </li>
  <li>You can also use the  <b>Recent Changes</b> view that shows a summary of recent changes to the project in a single pop-up list. Click a list entry to open Local History for it.</li>
  </ul>
  <li>In the Local History dialog window, select in the left pane select the revision you need. Then in the right pane you can compare local versions of selected file or folder, and accept or revert changes. See the <a href="https://www.jetbrains.com/help/idea/show-history-for-folder-dialog.html">Show History for File Dialog</a> and <a href="https://www.jetbrains.com/help/idea/show-history-for-file-selection-dialog.html">Show History for File/Selection Dialog</a> sections for detailed list of options available in this dialog.
 
-<img src="images/show_history_dialog_main.png">
+<img src="images/show_history_dialog_main.png" align="center">
 
 Note that:
  <ul>
-  <li>Local History for a file includes all changes that affect both the selected file and the whole project</li>
-  <li>Local History for a folder shows changes to the source code tree in general</li>
+  <li>Local History for a file includes all changes that affect both the selected file and the whole project.</li>
+  <li>Local History for a folder shows changes to the source code tree in general.</li>
  </ul>
  </ol>
 
