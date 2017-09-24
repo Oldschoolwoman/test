@@ -19,7 +19,7 @@ It applies to any structural artifacts: projects, directories, packages, files, 
 
 Local History revisions are marked with <i>labels</i>, which are similar to versions in traditional version control systems. Viewing or reverting or differences is performed against these labels.
 
-Labels based on predefined events are added to the local revisions automatically. Besides, you can manually put your own labels to the project artifacts to mark your changes. See “Using Custom Lables” for details.
+Labels based on predefined events are added to the local revisions automatically. Besides, you can manually put your own labels to the project artifacts to mark your changes. See <a href="#using-custom-labels">Using Custom Labels</a> for details.
 
 Local history is cleared when you install a new version of IntelliJ IDEA or when you invalidate caches. So, before performing these operations make sure you checked in the necessary changes into your global version control system.
 
@@ -33,13 +33,12 @@ Local history is cleared when you install a new version of IntelliJ IDEA or when
 <h2>Tracking and Reverting Changes with Local History</h2>
 This section describes how to:
 <ul>
-<li>View local history of a file or folder</li>
-<li>View local history of a class, method, field or selection</li>
-<li>View local history of a selection</li>
-<li>View recent changes</li>
-<li>Restore files from local history</li>
-<li>Mark local versions with labels</li>
- </ul>
+<li><a href="#viewing-local-history-of-a-file-or-folder">View local history of a file or folder</a></li>
+<li><a href="#reverting-changes-for-a-file-or-folder">Reverting Changes for a File or Folder</a></li>
+<li><a href="#viewing-local-history-of-source-code">Viewing Local History of Source Code</a></li>
+<li><a href="#using-custom-labels">Using Custom Labels</a></li>
+<li><a href="#viewing-summary-of-changes-for-projects">Viewing Summary of Changes for Projects</a></li>
+</ul>
 
 <h3>Viewing Local History of a File or Folder</h3>
 You can view local history, compare versions and revert changes made to the files and folders. 
