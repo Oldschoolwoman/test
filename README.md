@@ -68,7 +68,7 @@ To track changes to a file or folder:
  </li>
  <li>You can also use the  <b>Recent Changes</b> view that shows a summary of recent changes to the project in a single pop-up list. Click a list entry to open Local History for it.</li>
  </ul>
- <li>In the left pane of the Local History dialog window, select the revision you need. Then in the right pane you can compare local versions of the selected file or folder, and accept or revert changes. See the <a href="https://www.jetbrains.com/help/idea/show-history-for-folder-dialog.html">Show History for File Dialog</a> and <a href="https://www.jetbrains.com/help/idea/show-history-for-file-selection-dialog.html">Show History for File/Selection Dialog</a> sections for detailed list of options available in this dialog.
+ <li>In the left pane of the Local History dialog window, select the revision you need. Then in the right pane you can compare local versions of the selected file or folder, and accept or revert changes. See the <a href="https://www.jetbrains.com/help/idea/show-history-for-folder-dialog.html">Show History for Folder Dialog</a> and <a href="https://www.jetbrains.com/help/idea/show-history-for-file-selection-dialog.html">Show History for File/Selection Dialog</a> sections for detailed list of options available in this dialog.
  <p></p>
 <img src="images/show_history_dialog_main.png">
 
